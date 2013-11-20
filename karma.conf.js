@@ -17,7 +17,8 @@ module.exports = function(config) {
       'test/test-main.js',
       {pattern: 'test/map.test.png', included: false, served: true },
       {pattern: 'src/**/*.js', included: false},
-      {pattern: 'test/**/*.test.js', included: false}
+      {pattern: 'test/**/*.test.js', included: false},
+      {pattern: 'node_modules/underscore/*.js', included: false}
     ],
 
 
